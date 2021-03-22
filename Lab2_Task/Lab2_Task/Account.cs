@@ -43,11 +43,20 @@ namespace Lab2_Task
             transactionlist[TotalTransaction++] = transaction;
         }
 
+        public void ShowTransaction()
+        {
+            for(int i = 0; i < TotalTransaction; i++)
+            {
+                transactionlist[i].ShowInfo();
+            }
+        }
+
         public Account(string accName, string accid, int balance)
         {
             this.accName = accName;
             this.accid = accid;
             this.balance = balance;
+            transactionlist = new Transaction[10];
         }
         public void Deposit(int amount)
         {
@@ -59,14 +68,25 @@ namespace Lab2_Task
             }
 
         }
+
+
         public void Withdraw(int amount)
         {
-            balance = balance - amount;
+            if (amount <= balance)
             {
-                Console.WriteLine("{0}TK Money withdraw from your Account", amount);
-                Console.WriteLine("New Balance {0}TK", balance);
-                Console.WriteLine("");
+                balance = balance - amount;
+                {
+                    Console.WriteLine("{0}TK Money withdraw from your Account", amount);
+                    Console.WriteLine("New Balance {0}TK", balance);
+                    Console.WriteLine("");
+                }
+
             }
+            else
+            {
+                Console.WriteLine("Not Sufficient Balance");
+            }
+                
         }
 
 
@@ -78,6 +98,9 @@ namespace Lab2_Task
                 acc.balance = amount + balance;
                 Console.WriteLine("Balance Transfered {0}TK", amount);
                 Console.WriteLine("New Balance {0}TK", balance);
+                Transaction t = new Transaction(this, acc, amount, "Money ternsfer");
+                this.Addtransaction(t);
+                acc.Addtransaction(t);
             }
             else
             {
@@ -85,7 +108,13 @@ namespace Lab2_Task
             }
         }
 
-
+        public void ShowInfo()
+        {
+            Console.WriteLine("Name: {0}" , accName);
+            Console.WriteLine("id: {0} " , accid);
+            Console.WriteLine("Balance: {0}" , balance);
+            Console.WriteLine();
+        }
 
     }
 }

@@ -1,0 +1,7 @@
+F:\C Sharp final\Lab2_Task\Lab2_Task\bin\Debug\Lab2_Task.exe.config
+F:\C Sharp final\Lab2_Task\Lab2_Task\bin\Debug\Lab2_Task.exe
+F:\C Sharp final\Lab2_Task\Lab2_Task\bin\Debug\Lab2_Task.pdb
+F:\C Sharp final\Lab2_Task\Lab2_Task\obj\Debug\Lab2_Task.csprojAssemblyReference.cache
+F:\C Sharp final\Lab2_Task\Lab2_Task\obj\Debug\Lab2_Task.csproj.CoreCompileInputs.cache
+F:\C Sharp final\Lab2_Task\Lab2_Task\obj\Debug\Lab2_Task.exe
+F:\C Sharp final\Lab2_Task\Lab2_Task\obj\Debug\Lab2_Task.pdb

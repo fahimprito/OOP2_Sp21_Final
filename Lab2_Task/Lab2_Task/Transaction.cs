@@ -27,6 +27,12 @@ namespace Lab2_Task
 
         public void ShowInfo()
         {
+            Console.WriteLine("Sender Name: {0}, Account No: {1} & Amount send= {2}", Sender.AccName, Sender.Accid, Amount);
+            
+            Console.WriteLine("Receiver Name: {0}, Account No: {1} & Amount receive= {2}", Receiver.AccName, Receiver.Accid, Amount);
+            Console.WriteLine("Transfered Amount: {0} ", Amount);
+            Console.WriteLine("Additional Information: {0} ", AdditionalInfo);
+            Console.WriteLine("#############################\n\n");
 
         }
     }
