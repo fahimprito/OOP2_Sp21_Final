@@ -67,6 +67,10 @@ namespace InformationForm
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -139,6 +143,19 @@ namespace InformationForm
             // 
             this.Month.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Month.FormattingEnabled = true;
+            this.Month.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July ",
+            "August",
+            "September",
+            "October",
+            "November ",
+            "December"});
             this.Month.Location = new System.Drawing.Point(218, 196);
             this.Month.Name = "Month";
             this.Month.Size = new System.Drawing.Size(96, 25);
@@ -150,6 +167,38 @@ namespace InformationForm
             // 
             this.comboBox1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
             this.comboBox1.Location = new System.Drawing.Point(333, 196);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(103, 25);
@@ -170,6 +219,10 @@ namespace InformationForm
             // 
             this.comboBox3.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Others"});
             this.comboBox3.Location = new System.Drawing.Point(218, 234);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(323, 25);
@@ -377,11 +430,13 @@ namespace InformationForm
             // 
             // comboBox4
             // 
+            this.comboBox4.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(218, 779);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(323, 24);
+            this.comboBox4.Size = new System.Drawing.Size(323, 25);
             this.comboBox4.TabIndex = 34;
+            this.comboBox4.Text = "Choose a State";
             // 
             // textBox12
             // 
@@ -419,12 +474,54 @@ namespace InformationForm
             this.comboBox6.TabIndex = 38;
             this.comboBox6.Text = "Choose a security question";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(218, 938);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 37);
+            this.button1.TabIndex = 39;
+            this.button1.Text = "Submit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(235, 878);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(152, 17);
+            this.label21.TabIndex = 40;
+            this.label21.Text = "(No spaces or dashes)";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(356, 819);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(71, 17);
+            this.label22.TabIndex = 41;
+            this.label22.Text = "(Optional)";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(235, 595);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(133, 17);
+            this.label23.TabIndex = 42;
+            this.label23.Text = "(Not case-secsitive)";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(650, 904);
+            this.ClientSize = new System.Drawing.Size(650, 998);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.comboBox5);
@@ -511,6 +608,10 @@ namespace InformationForm
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
     }
 }
 

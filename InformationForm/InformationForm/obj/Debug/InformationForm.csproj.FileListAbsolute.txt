@@ -8,3 +8,13 @@ C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\Informatio
 C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.csproj.CoreCompileInputs.cache
 C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.exe
 C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.pdb
+F:\C Sharp final\InformationForm\InformationForm\bin\Debug\InformationForm.exe.config
+F:\C Sharp final\InformationForm\InformationForm\bin\Debug\InformationForm.exe
+F:\C Sharp final\InformationForm\InformationForm\bin\Debug\InformationForm.pdb
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.csprojAssemblyReference.cache
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.Form1.resources
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.Properties.Resources.resources
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.csproj.GenerateResource.cache
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.csproj.CoreCompileInputs.cache
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.exe
+F:\C Sharp final\InformationForm\InformationForm\obj\Debug\InformationForm.pdb
