@@ -42,9 +42,14 @@ namespace InformationForm
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RegisterClick(object sender, EventArgs e)
         {
+            MessageBox.Show("Submitted");
+            string uname = textuserName.Text;
+            string gender = genderbox.SelectedItem.ToString();
 
+            Outputbox.Text = string.Format(" Name: {0} \n\nGender: {1} ", uname,gender);
         }
+
     }
 }
