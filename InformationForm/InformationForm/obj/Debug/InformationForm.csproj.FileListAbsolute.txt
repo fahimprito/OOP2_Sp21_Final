@@ -1,0 +1,10 @@
+C:\Users\fahim\source\repos\InformationForm\InformationForm\bin\Debug\InformationForm.exe.config
+C:\Users\fahim\source\repos\InformationForm\InformationForm\bin\Debug\InformationForm.exe
+C:\Users\fahim\source\repos\InformationForm\InformationForm\bin\Debug\InformationForm.pdb
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.csprojAssemblyReference.cache
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.Form1.resources
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.Properties.Resources.resources
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.csproj.GenerateResource.cache
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.csproj.CoreCompileInputs.cache
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.exe
+C:\Users\fahim\source\repos\InformationForm\InformationForm\obj\Debug\InformationForm.pdb
