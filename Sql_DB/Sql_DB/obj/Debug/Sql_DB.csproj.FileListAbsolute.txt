@@ -1,0 +1,10 @@
+F:\C Sharp final\Sql_DB\Sql_DB\bin\Debug\Sql_DB.exe.config
+F:\C Sharp final\Sql_DB\Sql_DB\bin\Debug\Sql_DB.exe
+F:\C Sharp final\Sql_DB\Sql_DB\bin\Debug\Sql_DB.pdb
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.csprojAssemblyReference.cache
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.Form1.resources
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.Properties.Resources.resources
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.csproj.GenerateResource.cache
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.csproj.CoreCompileInputs.cache
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.exe
+F:\C Sharp final\Sql_DB\Sql_DB\obj\Debug\Sql_DB.pdb
